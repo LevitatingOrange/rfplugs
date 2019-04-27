@@ -1,0 +1,24 @@
+[general]
+server = "foo"
+port = 1883
+username = "bar"
+password = "baz"
+cmd_name = "/src/rfplug"
+mqtt_topic = "rflamps"
+
+[[devices]]
+name = "lamp1"
+group_id = 1234
+device_id = 2
+[[devices]]
+name = "lamp2"
+group_id = 1234
+device_id = 0
+[[devices]]
+name = "plug1"
+group_id = 1234
+device_id = 1
+[[devices]]
+name = "plug2"
+group_id = 1234
+device_id = 3
